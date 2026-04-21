@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / VitePress
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
